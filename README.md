@@ -57,16 +57,6 @@ Find credentials for this website using brute force
 - Evaluates results and adapts execution
 
 
-## High-Level Workflow
-
-1. User or agent provides a natural-language goal
-2. LLM converts the goal into a structured execution plan
-3. MCP server exposes Kali execution tools
-4. Commands are executed on Kali Linux via SSH
-5. Output is returned to the LLM
-6. LLM decides the next actions automatically
-
-
 ## Project Structure
 ```
 kali-mcp/
@@ -139,5 +129,6 @@ python server.py
 Feedback, ideas, and improvements are always welcome.
 
 If you find this project useful, feel free to ⭐ the repository or contribute.
+
 
 
