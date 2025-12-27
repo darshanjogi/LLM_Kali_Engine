@@ -113,15 +113,14 @@ self.host = "CHANGE_ME"
 self.user = "kali"
 self.password = "CHANGE_ME"
 ```
----
+
 
 ## Installation
-
+```
 git clone https://github.com/darshanjogi/LLM_Kali_Engine
 cd LLM_Kali_Engine
 pip install -r requirements.txt
-
-
+```
 
 ## Running the Engine
 
@@ -133,10 +132,12 @@ python server.py
 
 [Video](Video.mp4)
 
+---
 
 ## Thank You
  
 Feedback, ideas, and improvements are always welcome.
 
 If you find this project useful, feel free to ⭐ the repository or contribute.
+
 
