@@ -17,6 +17,9 @@ Instead of manually selecting tools, flags, and execution order, users can descr
 
 This engine bridges **human intent → LLM reasoning → real-world offensive security execution** using the **Model Context Protocol (MCP)**.
 
+## Video
+
+[Demo](Video.mp4)
 
 ### Workflow Explained
 
@@ -118,10 +121,6 @@ python server.py
 
 
 
-## Video
-
-[Video](Video.mp4)
-
 ---
 
 ## Thank You
@@ -129,6 +128,7 @@ python server.py
 Feedback, ideas, and improvements are always welcome.
 
 If you find this project useful, feel free to ⭐ the repository or contribute.
+
 
 
 
