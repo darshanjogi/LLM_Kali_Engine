@@ -1,0 +1,5 @@
+KALI_HOST = "192.168.56.105" #IP
+KALI_USER = "kali"
+KALI_PASSWORD = "kali"
+PROMPT = r"[#$]"
+MAX_OUTPUT = 8000
