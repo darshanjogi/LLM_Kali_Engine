@@ -17,7 +17,7 @@ Instead of manually selecting tools, flags, and execution order, users can descr
 
 This engine bridges **human intent → LLM reasoning → real-world offensive security execution** using the **Model Context Protocol (MCP)**.
 
----
+
 ### Workflow Explained
 
   <img src="workflow.png" alt="Workflow Diagram" width="450" height="350">
@@ -32,7 +32,7 @@ This engine bridges **human intent → LLM reasoning → real-world offensive se
 7. LLM analyzes output and decides next step  
 8. Loop continues until the goal is achieved
 
----
+
 ## Why This Engine Is Powerful
 
 Traditional security tooling requires deep expertise in tool selection, flag tuning, execution order, and output interpretation.
@@ -56,7 +56,6 @@ Find credentials for this website using brute force
 - Executes commands on Kali Linux
 - Evaluates results and adapts execution
 
----
 
 ## High-Level Workflow
 
@@ -67,7 +66,7 @@ Find credentials for this website using brute force
 5. Output is returned to the LLM
 6. LLM decides the next actions automatically
 
----
+
 ## Project Structure
 ```
 kali-mcp/
@@ -87,7 +86,7 @@ kali-mcp/
 - Paramiko (SSH)
 - pexpect
 
----
+
 
 ## Required Configuration
 
@@ -118,30 +117,26 @@ self.password = "CHANGE_ME"
 
 ## Installation
 
-git clone https:///kali-mcp.git  
-cd kali-mcp  
+git clone https://github.com/darshanjogi/LLM_Kali_Engine
+cd LLM_Kali_Engine
 pip install -r requirements.txt
 
----
+
 
 ## Running the Engine
 
 python server.py
 
----
+
 
 ## Video
 
-<video src="Video.mp4" controls width="600">
-</video>
+[Video](Video.mp4)
 
-
----
-
----
 
 ## Thank You
  
 Feedback, ideas, and improvements are always welcome.
 
 If you find this project useful, feel free to ⭐ the repository or contribute.
+
