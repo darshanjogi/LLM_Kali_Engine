@@ -20,7 +20,7 @@ This engine bridges **human intent → LLM reasoning → real-world offensive se
 ## Video
 
 [Demo](Video.mp4)
-Yt- https://www.youtube.com/watch?v=A5X0Ygb8QHs&t=10s
+Yt- https://www.youtube.com/watch?v=A5X0Ygb8QHs
 
 ### Workflow Explained
 
@@ -129,6 +129,7 @@ python server.py
 Feedback, ideas, and improvements are always welcome.
 
 If you find this project useful, feel free to ⭐ the repository or contribute.
+
 
 
 
